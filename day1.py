@@ -1,53 +1,52 @@
 #name = "Atieno"
 
+print (name)
 
-# print (name)
+print ("Hello World")
 
-# print ("Hello World")
+name = "Atieno"
+age = 25
+height = 1.57
 
-# name = "Atieno"
-# age = 25
-# height = 1.57
+print(name)
+print(age)
+print(height)
 
-# print(name)
-# print(age)
-# print(height)
-
-#contants don't change 
-#variales are in caps
+contants don't change 
+variales are in caps
 
 
-# PI = 3.142
-# print(PI)
+PI = 3.142
+print(PI)
 
 #python expressions; vales, variables, operators
 
-# x = 10
-# y = 12
+x = 10
+y = 12
 
-# # print(x+y)
+print(x+y)
 
-# z = x + y
+z = x + y
 
-# print(z)
+print(z)
 
-# greeting = "Hey hey"
-# name = " Atieno"
+greeting = "Hey hey"
+name = " Atieno"
 
-# # print(greeting + name)
+# print(greeting + name)
 
-# intro = (greeting + name)
+intro = (greeting + name)
 
-# print(intro)
+print(intro)
 
-# wine = input()
-# print("Wine is", wine)
+wine = input()
+print("Wine is", wine)
 
-# print(type(wine))
+print(type(wine))
 
-# age = input("Enter your age : ")
-# print(int(age))
-# print(type(age))
+age = input("Enter your age : ")
+print(int(age))
+print(type(age))
 
 age = input("what is your age ")
 age = int(age)
