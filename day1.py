@@ -77,5 +77,18 @@
 # print("Blastoff")
 # print(n)
 
+# name = "Atieno"
+# # school = "Zindua"
+
+# # print(f"My name is {name} and I go to {school} School")
+
+# # for i in name:
+# #     print(i)
+
+# print(len(name))
+
+txt = "I am alive"
+print("alive" in txt)
+print("alive not in txt")
 
 

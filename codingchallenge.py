@@ -88,4 +88,5 @@ print("Sum of numbers from 1 to", x, "is", sum)
 # Write a program that uses a for loop to print a pattern of stars or characters like a triangle.
 x = int(input("Enter a number: "))
 for i in range(1, x+1):
+    stars = ()
     print(i * "<>")
