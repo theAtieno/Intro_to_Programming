@@ -11,36 +11,7 @@ Game = (
 # Now, apply the input function to allow the user to make letter guesses. 
 # Use try... except and if statements to make sure that only valid inputs work with your script 
 # i.e. a user can only choose one letter at a time, and a user cannot choose letters that have been chosen before.
-
-secret_word = random.choice(Game)
-secret_word_len = ["_"]*len(secret_word)
-print(secret_word_len)
-
-guessed_letters = []
-
-while "_" in secret_word_len:
-
-    try:
-        guessed_letter = input("Enter a letter: ").lower().strip()
-
-        if len(guessed_letter) != 1:
-            raise ValueError("Enter ONE letter (a-z):")
-        
-        if  guessed_letter in guessed_letters:
-            raise ValueError("You already guessed this:")
-
-        guessed_letters.append(guessed_letter)
-
-        if guessed_letter in secret_word:
-            print("Correct guess")
-            for i,letter in enumerate(secret_word) :
-                if letter == guessed_letter :
-                 secret_word_len [i] = guessed_letter
-
-    except ValueError as e:
-        print(e)
-
-# If the letter is in the word then it is printed in place of the corresponding dash. 
+# # If the letter is in the word then it is printed in place of the corresponding dash. 
 # If the letter is not in the word, that is counted as a failed attempt, 
 # Limit the number of failed attempts for the user to 6 such that on the 6th fail, the game ends and the script 
 # prints the actual word and "You Lost". 

@@ -5,31 +5,7 @@
 # Utilise the Random Python Library to allow the computer to randomly choose rock, paper, or scissors in each round
 # Allow the user to now input their choice and compare it directly with the computer’s choice. You can then declare the winner of the round based on the rules of the game
 # You can now freely play rock-paper-scissors with your computer and see how well you perform against the computer’s randomised choices.
-
-import random
-
-options = ("rock", "paper", "scissors")
-
-computer_choice = random.choice(options)
-
-my_choice = input("Enter a choice between rock/paper/scissors: ")
-
-print("You chose:", my_choice)
-print("Computer chose:" , computer_choice)
-
-if my_choice == computer_choice :
-    print("Tie")
-elif my_choice == "rock" and computer_choice == "scissors":
-    print("You win")
-elif my_choice == "scissors" and computer_choice == "paper":
-    print("You win")
-elif my_choice == "paper" and computer_choice == "rock":
-    print("You win")
-else :
-    print("Computer wins")
-
-
-# Now, instead of declaring the winner, just assign a point to the winner of a round. This should allow you to utilise loops to increase the rounds within a game to 3 or 5. Your program will assign points to the winner of each round and declare the winner after all rounds i.e the one with the most points.
+# # Now, instead of declaring the winner, just assign a point to the winner of a round. This should allow you to utilise loops to increase the rounds within a game to 3 or 5. Your program will assign points to the winner of each round and declare the winner after all rounds i.e the one with the most points.
 
 import random
 
