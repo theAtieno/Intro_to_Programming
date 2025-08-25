@@ -6,16 +6,7 @@ Game = (
     "kilobyte","lucky","luxury","lymp","megahertz","microwave","mnemonic","nowadays","numbskull","nymph","ovary","oxidize","oxygen","pixel","pizazz","pneumonia","quixotic",
     "quiz","quizzes","rhubarb","rhythm","rickshaw","sphinx","spritz","squawk","topaz","transcript","transgress","unknown","unworthy","unzip","voodoo","vortex","voyeurism",
     "wheezy","whiskey","whizzing","xylophone","yoked","youthful","yummy","zephyr","zigzag","zigzagging","zilch","zipper"
-)   
-
-# Now, apply the input function to allow the user to make letter guesses. 
-# Use try... except and if statements to make sure that only valid inputs work with your script 
-# i.e. a user can only choose one letter at a time, and a user cannot choose letters that have been chosen before.
-# # If the letter is in the word then it is printed in place of the corresponding dash. 
-# If the letter is not in the word, that is counted as a failed attempt, 
-# Limit the number of failed attempts for the user to 6 such that on the 6th fail, the game ends and the script 
-# prints the actual word and "You Lost". 
-# Make sure to tell the user they won if they guess all the correct letters in under 6 failed attempts.
+    )   
 
 secret_word = random.choice(Game)
 secret_word_len = ["_"]*len(secret_word)
