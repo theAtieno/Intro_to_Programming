@@ -1,9 +1,9 @@
-## structure
+## Structure
 The repo is divided into weeks
 
-**Week 1**; Basics of Python
-Week 2; Intermediate concepts
-Week 3; Worling with external data
+- **Week 1**; Basics of Python
+- **Week 2**; Intermediate concepts
+- **Week 3**; Working with external data
 
 ## Weekly breakdown
 
@@ -19,11 +19,11 @@ Week 3; Worling with external data
 - While Loops
 - For loops
 - Strimg m,ethods a& File handling
-- Collections, lists,tuples, dictionaries, Sets
+- Collections, Lists, Tuples, Dictionaries, Sets
 - Regex functions
 
-### Week 2 : Working with the web
+### Week 3 : Working with the web
 
-- Webscraping
-- APIS
+- Webscraping: Extracting data from websites using requests and Beautifulsoup
+- APIs; Fetching data from external
 
